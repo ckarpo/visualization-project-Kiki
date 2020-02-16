@@ -50,17 +50,7 @@ void setup()
     osc.subscribe("/inf", [](OscMessage& m)
     {
         
-//        Serial.println(m.arg<int>(0));
-//        if (m.arg<int>(0) == true) {
-//            IMU.calibrateAccel();
-//            IMU.calibrateGyro();
-//            start = true;
-//        }
-//        else if (m.arg<int>(0) == false) {
-//            start = false;
-//        }
-//Serial.print(m.arg<int>(0));
-//Serial.print("bang");
+
 Serial.println("OSC Received");
         Serial.println(m.arg<int>(0));
         
