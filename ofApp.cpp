@@ -139,9 +139,7 @@ void ofApp::update(){
                 varZ[ind]=Z1;
                 ind++;
             }
-//            else{
-//                ind=0;
-//            }
+
             
 //            cout<<X1<<endl;
 //            cout<<Y1<<endl;
@@ -162,9 +160,7 @@ void ofApp::update(){
                     ind2++;
                     cout <<ind2<<endl;
                 }
-                else {
-                    ind2=0;
-                }
+              
             
 //            cout<<X2<<endl;
 //            cout<<Y2<<endl;
